@@ -16,3 +16,7 @@ terraform {
 resource "aws_iam_user" "terrausers" {
   name = "Vinod"
 }
+
+resource "aws_iam_group" "terraGroup" {
+  name = "terraGroup"
+}
